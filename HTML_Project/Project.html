@@ -6,15 +6,7 @@
     <title>Documet</title>
 </head>
 <body>
-    
-    
-
-
-
-
-
-
-
+<!--part one-->  
     
 
 
@@ -24,9 +16,12 @@
 
 
     
+
+
+
+ 
     
-    
-    
+   <!--part two--> 
  <table border="1" cellspacing="0">
         <tr>
             <th> NAME</th>
@@ -39,7 +34,7 @@
             <td> CX-5</td>
         </tr>
         <tr>
-               <td> MERCEDES </td>
+            <td> MERCEDES </td>
             <td>2015 </td>
             <td> C200</td>
         </tr>
@@ -49,61 +44,42 @@
             <td> PREMIO </td>
         </tr>
     </table>
-   
-    
-    
-    <h><b>Registration form</b></h>
-<h><b>Registration form</b></h>
-<!--Text input-->
-<label for="name">fullname:</label>
-<input type="text"id="name" required><br><br>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-     <!-- part three-->
-     <label for="email">Email</label>
-     <input type="email" name="email">
+
+
+    <!-- part three-->
+    <h2><b>Registration form</b></h2>
+    <br><br>
+    <form>
+        <fieldset>
+        <!--Text input-->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
         <br><br>
-     <label for="country">Country</label>
+
+        <label for="country">Country:</label>
         <select name="country" id="country">
             <option value="USA">USA</option>
             <option value="india">India</option>
             <option value="china">China</option>
             <option value="Kenya">Kenya</option>
-            <br><br>
-
-    <label for="gender">Gender</label> 
-    <select name="Gender" id="Gender"></select>
-        <option value="male">male</option>
-        <option value="Female">Female</option>
+        </select>
         <br><br>
 
+        <label>Choose your Gender:</label>
+        <br><br>
+        <input type="radio" name="Gender" value="male" id="male">
+        <label for="male">Male</label>
+        <br><br>
+        <input type="radio" name="Gender" value="Female" id="female">
+        <label for="female">Female</label>
+        <br><br>
 
-    <button type="submit">Submit</button>
+        <button type="submit">Submit</button>
+        </fieldset>
+    </form>
     
     
 </body>
